@@ -52,15 +52,16 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 15,
+          "currentEquation": "15"
         }
       ]
     },
     {
       "atomType": "Export",
       "name": "Export",
-      "x": 0.450836820083682,
-      "y": 0.40963855421686746,
+      "x": 0.4414225941422594,
+      "y": 0.7807228915662651,
       "uniqueID": "id-79",
       "ioValues": [
         {
@@ -73,13 +74,62 @@
         },
         {
           "name": "Part Name",
+          "ioValue": "Firstme"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Firstme"
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.5256276150627616,
+      "y": 0.5542168674698795,
+      "uniqueID": "id-84",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
           "ioValue": "First"
         }
       ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "First"
+      "partName": "First",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "name": "Github Molecule",
+      "x": 0.2348326359832636,
+      "y": 0.874698795180723,
+      "uniqueID": "id-92",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-94",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
     }
   ],
   "allConnectors": [
@@ -94,6 +144,18 @@
       "ap2Name": "geometry",
       "ap1ID": "id-75",
       "ap2ID": "id-79"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Passes",
+      "ap1ID": "id-75",
+      "ap2ID": "id-84"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-84",
+      "ap2ID": 1745001818599
     }
   ],
   "unitsKey": "MM",
