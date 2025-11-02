@@ -32,11 +32,11 @@
     {
       "atomType": "Import",
       "name": "Import",
-      "x": 0.19299163179916318,
-      "y": 0.3542168674698795,
-      "uniqueID": "id-58",
+      "x": 0.16788702928870294,
+      "y": 0.3951807228915663,
+      "uniqueID": "id-62",
       "ioValues": [],
-      "fileName": "Timo.svg",
+      "fileName": "Rastergrafik.svg",
       "type": "SVG",
       "repoOwner": "maney78",
       "repoName": "First"
@@ -44,17 +44,24 @@
     {
       "atomType": "Import",
       "name": "Import",
-      "x": 0.22489539748953974,
-      "y": 0.5927710843373494,
-      "uniqueID": "id-60",
+      "x": 0.2662133891213389,
+      "y": 0.7108433734939759,
+      "uniqueID": "id-64",
       "ioValues": [],
-      "fileName": "test.svg",
+      "fileName": "Timo.svg",
       "type": "SVG",
       "repoOwner": "maney78",
       "repoName": "First"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-62",
+      "ap2ID": 1745001818599
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "compiledBom": [],
