@@ -32,11 +32,23 @@
     {
       "atomType": "Import",
       "name": "Import",
-      "x": 0.1882845188284519,
-      "y": 0.3590361445783133,
+      "x": 0.19299163179916318,
+      "y": 0.3542168674698795,
       "uniqueID": "id-58",
       "ioValues": [],
       "fileName": "Timo.svg",
+      "type": "SVG",
+      "repoOwner": "maney78",
+      "repoName": "First"
+    },
+    {
+      "atomType": "Import",
+      "name": "Import",
+      "x": 0.22489539748953974,
+      "y": 0.5927710843373494,
+      "uniqueID": "id-60",
+      "ioValues": [],
+      "fileName": "test.svg",
       "type": "SVG",
       "repoOwner": "maney78",
       "repoName": "First"
